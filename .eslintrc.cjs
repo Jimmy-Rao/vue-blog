@@ -2,7 +2,7 @@
  * @Author: Ayan
  * @Date: 2023-09-28 10:31:07
  * @LastEditors: Ayan
- * @LastEditTime: 2023-09-28 10:42:35
+ * @LastEditTime: 2023-09-28 11:41:57
  * @Description: file not
  */
 module.exports = {
@@ -14,7 +14,8 @@ module.exports = {
     "extends": [
         "standard-with-typescript",
         "plugin:vue/vue3-essential",
-        'plugin:prettier/recommended' // 添加 prettier 插件
+        'plugin:prettier/recommended', // 添加 prettier 插件
+        'plugin:jest/recommended'
     ],
     "overrides": [
         {

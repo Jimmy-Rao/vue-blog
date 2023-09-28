@@ -1,9 +1,13 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
+<!--
+ * @Author: Ayan
+ * @Date: 2023-09-26 23:05:38
+ * @LastEditors: Ayan
+ * @LastEditTime: 2023-09-28 14:36:51
+ * @Description: file not
+-->
 <template>
   <div>
+    <router-view />
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -13,6 +17,10 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
+
+<script setup lang="ts">
+  import HelloWorld from './components/HelloWorld.vue'
+</script>
 
 <style scoped>
 .logo {

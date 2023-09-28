@@ -1,3 +1,10 @@
+<!--
+ * @Author: Ayan
+ * @Date: 2023-09-26 23:05:38
+ * @LastEditors: Ayan
+ * @LastEditTime: 2023-09-28 12:04:06
+ * @Description: file not
+-->
 <script setup lang="ts">
 import { ref } from 'vue'
 
@@ -28,6 +35,7 @@ const count = ref(0)
     in your IDE for a better DX
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <p>copyRight @13131</p>
 </template>
 
 <style scoped>
