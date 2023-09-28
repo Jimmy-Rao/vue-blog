@@ -1,0 +1,11 @@
+###
+ # @Author: Ayan
+ # @Date: 2023-09-28 11:27:22
+ # @LastEditors: Ayan
+ # @LastEditTime: 2023-09-28 11:27:39
+ # @Description: file not
+###
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx husky add .husky/commit-msg "npx --no-install commitlint --edit $1"

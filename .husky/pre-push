@@ -1,0 +1,11 @@
+###
+ # @Author: Ayan
+ # @Date: 2023-09-28 11:50:27
+ # @LastEditors: Ayan
+ # @LastEditTime: 2023-09-28 14:49:22
+ # @Description: file not
+###
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# npm run test
